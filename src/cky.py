@@ -1,3 +1,8 @@
+'''
+Author: Ruben Dorado
+
+A Python implementation of the CKY algorithm given a CFG and a sentence.
+'''
 import re
 
 class Grammar:

@@ -1,3 +1,8 @@
+'''
+Author: Ruben Dorado
+
+A Test to run the CKY algorithm implementation cyk.py.
+'''
 import os
 import sys
 from cky import parse
