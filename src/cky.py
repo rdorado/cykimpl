@@ -62,7 +62,6 @@ def cky(grammar, sentence, debug=False):
 	n = len(sentence)
 	table = [[[] for i in range(n-j)] for j in range(n)]
 	unaries = [[{} for i in range(n-j)] for j in range(n)]
-	nodes_back = [[[] for i in range(n + 1)] for j in range(n + 1)]
 
 	#Initialize table
 	for w in range(1, n + 1):
